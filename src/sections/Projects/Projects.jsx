@@ -1,7 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
+import whoPokemon from "../../assets/KsHbF.jpg";
+import assets from "../../assets/1907675.png";
 
 function Projects() {
   return (
@@ -9,16 +9,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={whoPokemon}
           link="https://github.com/"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Who's That Pokémon?"
+          p="Pokémon guessing game"
         ></ProjectCard>
         <ProjectCard
-          src={freshBurger}
+          src={assets}
           link="https://www.youtube.com/"
-          h3="Borgor"
-          p="Youtube"
+          h3="Assets Module"
+          p="Manages assets of a company"
         ></ProjectCard>
       </div>
     </section>

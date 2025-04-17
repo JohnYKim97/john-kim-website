@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Hero></Hero>
-      <Projects></Projects>
       <Skills></Skills>
+      <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
     </>
