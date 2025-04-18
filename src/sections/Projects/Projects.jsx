@@ -10,7 +10,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={whoPokemon}
-          link="https://github.com/"
+          link="https://pokemonquizwebapp.netlify.app/"
           h3="Who's That Pokémon?"
           p="Pokémon guessing game"
         ></ProjectCard>
