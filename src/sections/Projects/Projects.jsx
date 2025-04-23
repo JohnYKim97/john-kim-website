@@ -16,7 +16,7 @@ function Projects() {
         ></ProjectCard>
         <ProjectCard
           src={assets}
-          link="https://www.youtube.com/"
+          link="https://assets-module.netlify.app/"
           h3="Assets Module"
           p="Manages assets of a company"
         ></ProjectCard>

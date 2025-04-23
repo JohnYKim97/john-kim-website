@@ -25,11 +25,11 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill=".NET Core"></SkillList>
         <SkillList src={checkMarkIcon} skill="Git"></SkillList>
       </div>
-      <hr></hr>
+      {/* <hr></hr>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="JavaScript"></SkillList>
         <SkillList src={checkMarkIcon} skill="React"></SkillList>
-      </div>
+      </div> */}
     </section>
   );
 }
